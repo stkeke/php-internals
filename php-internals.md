@@ -1,4 +1,4 @@
-[]
+![PHP Internals](.\php-internals-title.jpg)
 # Q: What is the use of ```zend_arena *arena;``` in ```zend_globals.h::_zend_compiler_globals{}```?
 To answer this question, let's first understand data structure ```zend_arena{}```, which is defined in ```zend_arena.h``` as below:
 ```c
